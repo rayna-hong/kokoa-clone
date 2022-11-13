@@ -11,8 +11,16 @@
     font-weight: 600;
 }
 
+.screen-header__icons {
+    display: flex;
+}
+
 .screen-header__icons span {
     margin-left: 25px;
+    position: relative;
+}
+
+.icon-cog {
     position: relative;
 }
 
@@ -22,7 +30,7 @@
     height: 6px;
     border-radius: 3px;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 25px;
     right: 2px;
 }
